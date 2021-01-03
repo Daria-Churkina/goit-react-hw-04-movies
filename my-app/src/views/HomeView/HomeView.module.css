@@ -1,0 +1,52 @@
+.mainContainer {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.title {
+  font-family: 'Amatic SC';
+  text-align: center;
+  font-size: 50px;
+  font-weight: 700;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: -10px;
+  text-align: center;
+  list-style: none;
+}
+
+.item {
+  margin: 20px;
+  width: 350px;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+  background-color: transparent;
+  transition: 0.3s;
+}
+
+.item:hover {
+  transform: scale(1.05);
+  box-shadow: 0 2px 3px rgba(49, 83, 236, 0.548);
+}
+
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.image {
+  width: 350px;
+  height: auto;
+}
+
+.movieTitle {
+  font-size: 20px;
+  font-weight: 700px;
+}

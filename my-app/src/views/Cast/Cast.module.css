@@ -1,0 +1,31 @@
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: -15px;
+  text-align: center;
+  list-style: none;
+}
+
+.listItem {
+  width: 200px;
+  margin: 15px;
+  padding: 5px;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  background-color: transparent;
+  transition: 0.3s;
+}
+
+.listItem:hover {
+  transform: scale(1.05);
+  box-shadow: 0 2px 3px rgba(252, 168, 100, 0.548);
+}
+
+.image {
+  height: 300px;
+  border-radius: 5px;
+  overflow: hidden;
+  object-fit: cover;
+}

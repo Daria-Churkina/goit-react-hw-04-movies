@@ -1,0 +1,16 @@
+.wrapper {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.image {
+  border-radius: 5px;
+  width: 450px;
+  height: auto;
+}
+
+.text {
+  margin-top: 20px;
+  font-weight: 700;
+  font-size: 30px;
+}

@@ -1,0 +1,11 @@
+.header {
+  font-family: 'Amatic SC';
+  font-size: 30px;
+  font-weight: 700;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 80px;
+  margin-bottom: 16px;
+}
